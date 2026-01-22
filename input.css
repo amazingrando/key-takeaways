@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gray: #babec5;
+  --color-gray-medium: #e3e5e8;
+  --color-gray-light: #f4f5f8;
+  --color-gray-lighter: #fafafa;
+  --color-watermelon: #ff808c;
+}
+
+.keytakeaways {
+  @apply bg-gray-light rounded-2xl p-8 !mb-16;
+}
+
+.keytakeaways__2 {
+  @apply bg-gray-lighter rounded-2xl p-8 !mb-16;
+}
+
+.keytakeaways__2 h2 {
+  .rkv-entry__content & {
+    @apply text-2xl font-bold;
+  }
+}
+
+.keytakeaways__2 ul {
+  .rkv-entry__content & {
+    @apply text-base mb-0;
+  }
+}
+
+.keytakeaways__2 ul li {
+  .rkv-entry__content & {
+    @apply mb-2;
+    @apply marker:text-gray;
+  }
+}
+
+.keytakeaways__3 {
+  @apply bg-gray-lighter rounded-2xl p-8 !mb-16;
+}
+
+.keytakeaways__3 h2 {
+  .rkv-entry__content & {
+    @apply text-2xl font-bold uppercase;
+  }
+}
+
+.keytakeaways__3 ul {
+  .rkv-entry__content & {
+    @apply text-base mb-0;
+  }
+}
+
+.keytakeaways__3 ul li {
+  .rkv-entry__content & {
+    @apply mb-2;
+    @apply marker:text-watermelon;
+  }
+}
