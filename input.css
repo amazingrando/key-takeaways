@@ -6,6 +6,7 @@
   --color-gray-light: #f4f5f8;
   --color-gray-lighter: #fafafa;
   --color-watermelon: #ff808c;
+  --color-link: #1a66ff; /* #236cff; */
 }
 
 .keytakeaways {
@@ -52,6 +53,34 @@
 }
 
 .keytakeaways__3 ul li {
+  .rkv-entry__content & {
+    @apply mb-2;
+    @apply marker:text-watermelon;
+  }
+}
+
+.keytakeaways__approved {
+  @apply bg-gray-lighter rounded-2xl p-8 !mb-16;
+}
+
+.keytakeaways__approved a,
+.keytakeaways__approved .rkv-action-link {
+  @apply text-link;
+}
+
+.keytakeaways__approved h2 {
+  .rkv-entry__content & {
+    @apply text-2xl font-bold uppercase;
+  }
+}
+
+.keytakeaways__approved ul {
+  .rkv-entry__content & {
+    @apply text-base mb-0;
+  }
+}
+
+.keytakeaways__approved ul li {
   .rkv-entry__content & {
     @apply mb-2;
     @apply marker:text-watermelon;
