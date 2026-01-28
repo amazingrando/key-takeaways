@@ -59,28 +59,56 @@
   }
 }
 
-.keytakeaways__approved {
+.keytakeaways__round2 {
   @apply bg-gray-lighter rounded-2xl p-8 !mb-16;
 }
 
-.keytakeaways__approved a,
-.keytakeaways__approved .rkv-action-link {
+.keytakeaways__round2 a,
+.keytakeaways__round2 .rkv-action-link {
   @apply text-link;
 }
 
-.keytakeaways__approved h2 {
+.keytakeaways__round2 h2 {
   .rkv-entry__content & {
     @apply text-2xl font-bold uppercase;
   }
 }
 
-.keytakeaways__approved ul {
+.keytakeaways__round2 ul {
   .rkv-entry__content & {
     @apply text-base mb-0;
   }
 }
 
-.keytakeaways__approved ul li {
+.keytakeaways__round2 ul li {
+  .rkv-entry__content & {
+    @apply mb-2;
+    @apply marker:text-watermelon;
+  }
+}
+
+.keytakeaways__round3 {
+  @apply bg-gray-lighter rounded-2xl p-8 !mb-16;
+}
+
+.keytakeaways__round3 a,
+.keytakeaways__round3 .rkv-action-link {
+  @apply text-link;
+}
+
+.keytakeaways__round3 h2 {
+  .rkv-entry__content & {
+    @apply text-lg font-bold uppercase tracking-wide;
+  }
+}
+
+.keytakeaways__round3 ul {
+  .rkv-entry__content & {
+    @apply text-base mb-0;
+  }
+}
+
+.keytakeaways__round3 ul li {
   .rkv-entry__content & {
     @apply mb-2;
     @apply marker:text-watermelon;
